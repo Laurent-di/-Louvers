@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Производство, продажа и установка жалюзи</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesheet/stylesheet.min.css">
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 logo">
+                <img src="img/logo.png" alt="Logo Жалюзи" class="img-responsive">
+            </div>
+            <div class="col-sm-6 text-center descript">
+                <h4>Производство, продажа и установка жалюзи</h4>
+                <p>в Одессе и Киеве</p>
+            </div>
+            <div class="col-sm-3 phone-number">
+                <h3><i class="glyphicon glyphicon-phone"></i><a href="tel:+380999999999">+38(099)999-99-99</a></h3>
+                <p>Режим работы с 9 <sup>00</sup> до 18 <sup>00</sup></p>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <div class="container">
+        <div class="row">
+            <ul class="list-inline">
+                <a href="#">
+                    <li>Главная</li>
+                </a>
+                <a href="#">
+                    <li>Виды жалюзи</li>
+                </a>
+                <a href="#">
+                    <li>Наши работы</li>
+                </a>
+                <a href="#">
+                    <li>Акции</li>
+                </a>
+                <a href="#">
+                    <li>Отзывы</li>
+                </a>
+                <a href="#">
+                    <li>Контакты</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="main">
+    <div class="container">
+        <div class="row main__row">
+            <h1><span>Установим жалюзи в вашей квартире</span><br>
+                <span>за 2 часа с полной гарантией </span><br>
+                <span>и бесплатной доставкой</span></h1>
+        </div>
+        <div class="row">
+            <h3>Закажите выезд замерщика на дом.<span> Это бесплатно!</span></h3>
+        </div>
+        <div class="row main__row__buttons">
+            <button data-toggle="modal" id="get_measurer" href="#get_measurer_modal">Выезд замерщика</button>
+            <a href="#types"><button id="get_types">Выбрать жалюзи</button></a>
+        </div>
+    </div>
+</section>
+<section id="types">
+    <div class="container">
+        <div class="row">
+            <div class="types__section__header section__header text-center">
+                <h2>Виды жалюзи</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="card types__card">
+                    <img src="img/types-1.jpg" alt="Горизонтальные жалюзи" class="img-responsive center-block">
+                    <h4>Горизонтальные жалюзи</h4>
+                    <p>
+                        <button class="types__card__more_btn more_btn" data-toggle="modal" href="#more_horizontal">Подробнее</button>
+                        <button class="types__card__offer_btn offer_btn" data-toggle="modal" href="#get_horizontal">Заказать</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card types__card">
+                    <img src="img/types-2.jpg" alt="Вертикальные жалюзи" class="img-responsive center-block">
+                    <h4>Вертикальные жалюзи</h4>
+                    <p>
+                        <button class="types__card__more_btn more_btn" data-toggle="modal" href="#more_vertical">Подробнее</button>
+                        <button class="types__card__offer_btn offer_btn" data-toggle="modal" href="#get_vertical">Заказать</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card types__card">
+                    <img src="img/types-3.jpg" alt="Рулонные жалюзи" class="img-responsive center-block">
+                    <h4>Рулонные жалюзи</h4>
+                    <p>
+                        <button class="types__card__more_btn more_btn" data-toggle="modal" href="#more_role">Подробнее</button>
+                        <button class="types__card__offer_btn offer_btn" data-toggle="modal" href="#get_role">Заказать</button>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card types__card">
+                    <img src="img/types-4.jpg" alt="Жалюзи Плиссе" class="img-responsive center-block">
+                    <h4>Жалюзи Плиссе</h4>
+                    <p>
+                        <button class="types__card__more_btn more_btn" data-toggle="modal" href="#more_pleated">Подробнее</button>
+                        <button class="types__card__offer_btn offer_btn" data-toggle="modal" href="#get_pleated">Заказать</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="help">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-2 help__info">
+                <h3>Не знаете какие жалюзи выбрать ?</h3>
+                <p>Оставьте заявку на консультацию и наш специалист подробно ответит <br> на все Ваши вопросы. Это бесплатно!</p>
+                <p>
+                    <button id="free_consult" data-toggle="modal" href="#free_advice">Бесплатная консультация</button>
+                </p>
+            </div>
+            <div class="col-md-2">
+                <img src="img/window.jpg" alt="Бесплатная консультация" class="img-responsive center-block">
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="section__header text-center">
+                <h2>Наши работы</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="slider">
+                    <div class="fotorama" data-nav="thumbs">
+                        <img src="img/portfolio/1.jpg" alt="Изображение">
+                        <img src="img/portfolio/2.jpg" alt="Изображение">
+                        <img src="img/portfolio/3.jpg" alt="Изображение">
+                        <img src="img/portfolio/4.jpg" alt="Изображение">
+                        <img src="img/portfolio/5.jpg" alt="Изображение">
+                        <img src="img/portfolio/6.jpg" alt="Изображение">
+                        <img src="img/portfolio/7.jpg" alt="Изображение">
+                        <img src="img/portfolio/8.jpg" alt="Изображение">
+                        <img src="img/portfolio/9.jpg" alt="Изображение">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="offer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 offer__gift">
+                <img src="img/giftbox.jpg" alt="Подарок" class="img-responsive center-block gift">
+            </div>
+            <div class="col-md-9 offer__info">
+                <h4>Акция</h4>
+                <h3>Закажите установку жалюзи до 29.06.2016</h3>
+                <p>И получите в подарок москитную сетку для окна</p>
+                <div class="row">
+                    <form action="#" class="offer__info__form">
+                        <div class="col-md-4">
+                            <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit">Заказать жалюзи</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="feedback" class="feedback">
+    <div class="container">
+        <div class="row">
+            <div class="feedback__header section__header">
+                <h2>Отзывы о нашей работе</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="feedback__slider">
+                <!-- Карусель -->
+                <div id="myCarousel" class="carousel slide feedback__slider__carousel" data-interval="3000" data-ride="carousel">
+                    <!-- Индикаторы для карусели -->
+                    <ol class="carousel-indicators">
+                        <!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Слайды карусели -->
+                    <div class="carousel-inner feedback__slider__carousel__inner">
+                        <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                        <div class="active item feedback__slider__carousel__inner__item">
+                           <div class="row">
+                               <div class="col-md-4">
+                                   <div class="fotorama">
+                                       <img src="img/feedback/1/1.png" alt="Изображение">
+                                       <img src="img/feedback/1/2.png" alt="Изображение">
+                                       <img src="img/feedback/1/3.png" alt="Изображение">
+                                   </div>
+                               </div>
+                               <div class="col-md-8 feedback__slider__carousel__inner__item__info">
+                                   <div class="row">
+                                       <div class="col-md-2 feedback__slider__carousel__inner__item__info__avatar">
+                                           <img src="img/avatar-1.png" alt="Клиент" class="img-circle center-block">
+                                       </div>
+                                       <div class="col-md-10 feedback__slider__carousel__inner__item__info__name">
+                                           <h5>Марина Забелина</h5>
+                                           <a href="#" class="feedback__slider__carousel__inner__item__info__name__link">facebook.com/Marina.Zabelina</a>
+                                       </div>
+                                   </div>
+                                   <div class="row">
+                                       <div class="audio">
+                                           <audio controls>
+                                               <source src="audio/feedback-1.mp3" type="audio/mpeg">
+                                           </audio>
+                                       </div>
+                                   </div>
+                                   <div class="row">
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur
+                                           cum esse harum ipsam natus officiis quis quo sapiente! Aperiam earum maiores
+                                           nesciunt omnis quibusdam rem repellat tenetur unde voluptatibus.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        <!-- Слайд №2 -->
+                        <div class="item feedback__slider__carousel__inner__item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="fotorama">
+                                        <img src="img/feedback/1/1.png" alt="Изображение">
+                                        <img src="img/feedback/1/2.png" alt="Изображение">
+                                        <img src="img/feedback/1/3.png" alt="Изображение">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/avatar-1.png" alt="Клиент" class="img-circle center-block">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h5>Марина Забелина</h5>
+                                            <a href="#">facebook.com/Marina.Zabelina</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="audio">
+                                            <audio controls>
+                                                <source src="audio/feedback-1.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur
+                                            cum esse harum ipsam natus officiis quis quo sapiente! Aperiam earum maiores
+                                            nesciunt omnis quibusdam rem repellat tenetur unde voluptatibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Слайд №3 -->
+                        <div class="item feedback__slider__carousel__inner__item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="fotorama">
+                                        <img src="img/feedback/1/1.png" alt="Изображение">
+                                        <img src="img/feedback/1/2.png" alt="Изображение">
+                                        <img src="img/feedback/1/3.png" alt="Изображение">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 item__info">
+                                    <div class="row">
+                                        <div class="col-md-2 item__info__avatar">
+                                            <img src="img/avatar-1.png" alt="Клиент" class="img-circle center-block">
+                                        </div>
+                                        <div class="col-md-10 item__info__name">
+                                            <h5>Анна Иванова</h5>
+                                            <a href="#" class="item__info__name__link">facebook.com/Marina.Zabelina</a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="audio">
+                                            <audio controls>
+                                                <source src="audio/feedback-1.mp3" type="audio/mpeg">
+                                            </audio>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur
+                                            cum esse harum ipsam natus officiis quis quo sapiente! Aperiam earum maiores
+                                            nesciunt omnis quibusdam rem repellat tenetur unde voluptatibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<footer id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21992.433778997467!2d30.740029250000003!3d46.44762265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c633c0a954b89f%3A0x5ca45811784896!2z0JjQv9C_0L7QtNGA0L7QvA!5e0!3m2!1sru!2sua!4v1516011431913" width="450" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Контакты</h2>
+                <div class="row contacts__info">
+                    <address>
+                        <p class="address">
+                           <i class="glyphicon glyphicon-map-marker"></i> Адрес:
+                        </p>
+                        <p class="kazan">
+                            Одесса, ул. Серова 125, офис 324
+                        </p>
+                    </address>
+                </div>
+                <div class="row">
+                    <div class="phone__footer">
+                        <p class="telephone phone__footer__telephone">
+                           <i class="glyphicon glyphicon-earphone"></i> Телефон:
+                        </p>
+                        <p class="number phone__footer__number">
+                            <a href="tel:+380999999999">+38(099) 999-99-99</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row social contacts__info__social">
+                    <div class="link contacts__info__social__link">
+                        <a href=""><img src="img/social-1.png" alt="Изображение"></a>
+                    </div>
+                    <div class="link contacts__info__social__link">
+                        <a href=""><img src="img/social-2.png" alt="Изображение"></a>
+                    </div>
+                    <button id="get_answer" data-toggle="modal" href="#get_question">Задать вопрос</button>
+                </div>
+            </div>
+        </div>
+        <div class="row details">
+            <div class="col-md-4 info details__info">
+                <h5>ООО "Изготовление Жалюзей"</h5>
+                <p>0грн. 3456546456546</p>
+                <p>ИНН 456455476544564</p>
+            </div>
+            <div class="col-md-4 policy details__policy">
+                <a href="#" data-toggle="modal">Политика конфедециальности</a>
+                <p>Казань 2013-2014</p>
+            </div>
+            <div class="col-md-4 development details__development">
+                <h4>Сайт разработан: </h4>
+                <a href="https://www.facebook.com/Dimitriy.Perepelchuk">Dmitriy Perepelchuk</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--------- Модальные окна--------->
+
+<!-- Вызов замерщика -->
+<div class="modal fade" id="get_measurer_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal modal-body__top">
+                    <h4>Для вызова замерщика <br> оставьте свои данные</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее(горизонтальные жалюзи) -->
+<div class="modal fade" id="more_horizontal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Горизонтальные жалюзи</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="fotorama" data-width="100%">
+                        <img src="img/types/horizontal/1.jpg" alt="">
+                        <img src="img/types/horizontal/2.jpg" alt="">
+                        <img src="img/types/horizontal/3.jpg" alt="">
+                        <img src="img/types/horizontal/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    lorem Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p><span class="price">от 999 грн.</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-4">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее(вертикальные жалюзи) -->
+<div class="modal fade" id="more_vertical" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Вертикальные жалюзи</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="fotorama" data-width="100%">
+                        <img src="img/types/horizontal/1.jpg" alt="">
+                        <img src="img/types/horizontal/2.jpg" alt="">
+                        <img src="img/types/horizontal/3.jpg" alt="">
+                        <img src="img/types/horizontal/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        lorem Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p><span class="price">от 999 грн.</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-4">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее(рулонные жалюзи) -->
+<div class="modal fade" id="more_role" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Рулонные жалюзи</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="fotorama" data-width="100%">
+                        <img src="img/types/horizontal/1.jpg" alt="">
+                        <img src="img/types/horizontal/2.jpg" alt="">
+                        <img src="img/types/horizontal/3.jpg" alt="">
+                        <img src="img/types/horizontal/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        lorem Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p><span class="price">от 999 грн.</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-4">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Подробнее(плиссе жалюзи) -->
+<div class="modal fade" id="more_pleated" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Плиссе жалюзи</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="fotorama" data-width="100%">
+                        <img src="img/types/horizontal/1.jpg" alt="">
+                        <img src="img/types/horizontal/2.jpg" alt="">
+                        <img src="img/types/horizontal/3.jpg" alt="">
+                        <img src="img/types/horizontal/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        lorem Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Commodi cum deleniti ex explicabo nostrum perferendis quas.</p>
+                    <p><span class="price">от 999 грн.</span></p>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-4">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать(горизонтальные жалюзи) -->
+<div class="modal fade" id="get_horizontal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Для заказа жалюзи <br> оставьте свои данные</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать(вертикальные жалюзи) -->
+<div class="modal fade" id="get_vertical" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Для заказа жалюзи <br> оставьте свои данные</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать(рулонные жалюзи) -->
+<div class="modal fade" id="get_role" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Для заказа жалюзи <br> оставьте свои данные</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Заказать(плиссе жалюзи) -->
+<div class="modal fade" id="get_pleated" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Для заказа жалюзи <br> оставьте свои данные</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Заказать жалюзи</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ -->
+<div class="modal fade" id="free_advice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Закажите <br> бесплатную <br> консультацию</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Заказать</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ЗАДАТЬ ВОПРОС -->
+<div class="modal fade" id="get_question" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body text-center">
+                <div class="top__modal__right modal-body__top">
+                    <h4>Задайде вопрос<br>и наш менеджер<br>с радостью ответит<br> на него</h4>
+                </div>
+            </div>
+            <div class="row">
+                <form action="#">
+                    <div class="col-xs-12">
+                        <input type="text" name="name" required placeholder="Имя..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <input type="text" name="phone" required placeholder="Телефон..." class="form-control form__input">
+                    </div>
+                    <div class="col-xs-12">
+                        <textarea name="question" placeholder="Ваш вопрос..." id="#" cols="27" rows="5"></textarea>
+                    </div>
+                    <div class="footer__modal text-center">
+                        <button type="submit">Задать вопрос</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
