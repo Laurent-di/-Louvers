@@ -1,0 +1,552 @@
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url("../../fonts/OpenSansRegular/OpenSansRegular.eot");
+  src: url("../../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+  url("../../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: url("../../fonts/OpenSansBold/OpenSansBold.eot");
+  src: url("../../fonts/OpenSansBold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/OpenSansBold/OpenSansBold.woff") format("woff"),
+  url("../../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansItalic";
+  src: url("../../fonts/OpenSansItalic/OpenSansItalic.eot");
+  src: url("../../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix")format("embedded-opentype"),
+  url("../../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"),
+  url("../../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*================================== БАЗОВЫЕ НАСТРОЙКИ ===================================*/
+body{
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  font-weight: 400;
+}
+a:hover,
+a:focus,
+a:active,
+a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+.section__header h2{
+  text-transform: uppercase;
+  color: #666666;
+  font-family: "OpenSansBold";
+}
+button:hover,
+button:focus,
+button:visited,
+button:active{
+  outline: 0;
+}
+/*================================== ШАПКА ===================================*/
+header{
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #666;
+  .descript{
+    h4{
+      font-family: "OpenSansBold";
+      text-transform: uppercase;
+    }
+    p{
+      font-family: "OpenSansRegular";
+      font-size: 15px;
+    }
+  }
+  .phone-number{
+    text-align: right;
+    h3{
+      margin-top: 7px;
+    }
+    a{
+      font-family: "OpenSansItalic";
+      color: #666666;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+    .glyphicon{
+      top: 4px;
+    }
+  }
+}
+/*================================== НАВИГАЦИЯ ===================================*/
+nav{
+  background-color: #fafdfa;
+  ul{
+    margin-bottom: 0px;
+      a{
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 20px 10px;
+        color: #666666;
+        -moz-transition: color 0.15s 0.015s ease;
+        -o-transition: color 0.15s 0.015s ease;
+        -webkit-transition: color 0.15s 0.015s ease;
+        &:hover{
+          text-decoration: none;
+          background-color: #67cc67;
+          color: #fff;
+        }
+      }
+  }
+}
+/*================================== MAIN SECTION ===================================*/
+#main{
+  background: url("../../img/main-background-fix.jpg") no-repeat center;
+  background-size: cover;
+  .main__row{
+    h1{
+      margin-top: 100px;
+      margin-bottom: 90px;
+      font-family: "OpenSansBold";
+      color: #fff;
+      text-transform: uppercase;
+      span{
+       background-color: #67cc67;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+    }
+    &__buttons{
+      margin-top: 7px;
+      margin-bottom: 100px;
+      button#get_measurer{
+        border: none;
+        background-color: #ff9933;
+        padding: 17px 35px;
+        color: #fff;
+        font-family: "OpenSansBold";
+        font-size: 20px;
+        text-transform: uppercase;
+        &:hover{
+          background-color: #d67513c4;
+        }
+      }
+      button#get_types{
+        border: none;
+        background-color: transparent;
+        padding: 15px 33px;
+        color: #ff9933;
+        font-family: "OpenSansBold";
+        text-transform: uppercase;
+        font-size: 20px;
+        border: 2px solid #ff9933;
+        margin-left: 20px;
+        &:hover{
+          background-color: #ff9933a8;
+          color: #fff;
+        }
+      }
+    }
+  }
+  h3{
+    font-family: "OpenSansBold";
+    text-transform: uppercase;
+    color: #fff;
+    span{
+      color: #ff9933;
+    }
+  }
+}
+/*================================== TYPES SECTION ===================================*/
+#types {
+  padding-top: 60px;
+  color: #666666;
+  &__section__header {
+    margin-bottom: 50px;
+  }
+  .types__card {
+    padding: 5px;
+    border: 2px solid transparent;
+    -moz-transition: color 0.15s 0.015s ease;
+    -o-transition: color 0.15s 0.015s ease;
+    -webkit-transition: color 0.15s 0.015s ease;
+    &:hover {
+      border: 2px solid #b2e5b2;
+      background-color: #fafdfa;
+    }
+    h4 {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-size: 16px;
+      font-family: "OpenSansBold";
+      text-transform: uppercase;
+    }
+    &__more_btn {
+      font-size: 14px;
+      border: none;
+      color: #66cc66;
+      border: 2px solid #66cc66;
+      padding: 10px 15px;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-family: "OpenSansBold";
+      -moz-transition: color 0.15s 0.015s ease;
+      -o-transition: color 0.15s 0.015s ease;
+      -webkit-transition: color 0.15s 0.015s ease;
+      &:hover {
+        background-color: #66cc66;
+        color: #fff;
+      }
+    }
+    &__offer_btn {
+      font-size: 14px;
+      border: none;
+      color: #fff;
+      border: 2px solid #66cc66;
+      padding: 10px 15px;
+      background-color: #66cc66;
+      text-transform: uppercase;
+      font-family: "OpenSansBold";
+      -moz-transition: color 0.15s 0.015s ease;
+      -o-transition: color 0.15s 0.015s ease;
+      -webkit-transition: color 0.15s 0.015s ease;
+      &:hover {
+        background-color: transparent;
+        color: #66cc66;
+      }
+    }
+  }
+}
+/*================================== HELP SECTION ===================================*/
+#help{
+  padding-top: 65px;
+  padding-bottom: 50px;
+  .help__info{
+    h3{
+      color: #ff9933;
+      text-transform: uppercase;
+      font-family: "OpenSansBold";
+    }
+    p{
+      color: #666666;
+      font-family: "OpenSansRegular";
+      font-size: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  img{
+    margin-top: 25px;
+  }
+  [data-toggle='modal']{
+    font-family: "OpenSansBold";
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    color: #ff9933;
+    border: 2px solid #ff9933;
+    padding: 10px 20px;
+    &:hover{
+      background-color: #ff9933;
+      color: #fff;
+    }
+  }
+}
+/*================================== PORTFOLIO SECTION ===================================*/
+
+
+/*================================== OFFER SECTION ===================================*/
+#offer{
+  padding-top: 70px;
+  .offer__info{
+    h4{
+      text-transform: uppercase;
+      color: #ff9933;
+      font-family: "OpenSansBold";
+    }
+    h3{
+      text-transform: uppercase;
+      color: #ff9933;
+      font-family: "OpenSansBold";
+    }
+    p{
+      color: #666666;
+      font-size: 22px;
+    }
+    &__form{
+      input[name='name']{
+        background: url("../../img/user.png") no-repeat center left 5px;
+        padding: 20px;
+        padding-left: 25px;
+        border-radius: 0;
+        border: 1px solid #ccc;
+        opacity: 0.5;
+        &:hover,
+        &:focus{
+          opacity: 1;
+        }
+      }
+      input[name='phone']{
+        background: url("../../img/phone.png") no-repeat center left 5px;
+        padding: 20px;
+        padding-left: 25px;
+        border-radius: 0;
+        border: 1px solid #ccc;
+        opacity: 0.5;
+        &:hover,
+        &:focus{
+          opacity: 1;
+        }
+      }
+    }
+    button[type='submit']{
+      background-color: #ff9933;
+      color: #fff;
+      border: 2px solid #ff9933;
+      padding: 7px 25px;
+      -moz-transition: color 0.15s 0.015s ease;
+      -o-transition: color 0.15s 0.015s ease;
+      -webkit-transition: color 0.15s 0.015s ease;
+      &:hover{
+        background-color: transparent;
+        color: #ff9933;
+        border: 2px solid #ff9933;
+      }
+    }
+  }
+}
+/*================================== FEEDBACK SECTION ===================================*/
+.feedback{
+  padding-bottom: 50px;
+  &__header{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &__slider{
+    .carousel-indicators{
+      bottom: -50px;
+      li {
+        border: 1px solid #ff9933;
+      }
+      .active{
+        background-color: #ff9933;
+      }
+    }
+    &__carousel{
+      &__inner{
+        &__item{
+          background-color: #f8f8f8;
+          padding: 20px;
+          &__info{
+            &__name{
+              h5{
+                font-family: "OpenSansRegular";
+                color: #666666;
+                font-weight: 600;
+                font-size: 16px;
+                margin-top: 25px;
+              }
+              &__link{
+                font-family: "OpenSansRegular";
+                font-weight: 600;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*================================== FOOTER SECTION ===================================*/
+footer{
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background-color: #666666;
+  color: #fff;
+  h2{
+    font-family: "OpenSansBold";
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: -15px;
+  }
+  a{
+    color: #fff;
+  }
+  .contacts__info{
+    address{
+      margin-top: 10px;
+      margin-bottom: 0px;
+      p.address{
+        text-transform: uppercase;
+        font-family: "OpenSansRegular";
+      }
+      .kazan{
+        font-size: 20px;
+        margin-top: 0px;
+      }
+    }
+    &__social{
+      margin-top: 20px;
+     &__link{
+       border-radius: 50%;
+       display: inline-block;
+       margin-right: 5px;
+       &:hover{
+         background-color: #fff;
+       }
+       img{
+         width: 35px;
+       }
+     }
+    }
+  }
+  .phone__footer{
+    &__telephone{
+      text-transform: uppercase;
+    }
+    &__number{
+      font-size: 20px;
+      margin-top: 0px;
+    }
+  }
+  button{
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 7px 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-family: "OpenSansBold";
+    margin-left: 5px;
+    -moz-transition: color 0.15s 0.015s ease;
+    -o-transition: color 0.15s 0.015s ease;
+    -webkit-transition: color 0.15s 0.015s ease;
+    &:hover{
+      background-color: #fff;
+      color: #666666;
+    }
+  }
+  .details{
+    margin-top: 30px;
+    &__info{
+      h5{
+        font-family: "OpenSansBold";
+        font-size: 15px;
+      }
+      p{
+        text-transform: uppercase;
+      }
+    }
+    &__policy{
+      text-align: center;
+      a{
+        color: #fff;
+        border-bottom: 1px dashed #ffffff;
+      }
+    }
+    &__development{
+      text-align: right;
+      h4{
+        font-family: "OpenSansBold";
+        text-transform: uppercase;
+      }
+      a{
+        color: #fff;
+        font-family: "OpenSansBold";
+        font-size: 18px;
+      }
+    }
+  }
+}
+/*================================== MODAL WINDOWS ===================================*/
+.modal-dialog{
+  margin-top: 10%;
+}
+.modal-body{
+  &__top{
+    h4{
+      text-transform: uppercase;
+      color: #666666;
+      font-family: "OpenSansRegular";
+      font-weight: 600;
+    }
+  }
+}
+.modal-header{
+  margin-top: -50px;
+  border-bottom: none;
+  .close{
+    text-shadow: none;
+    color: #fff;
+    opacity: 0.9;
+    margin-right: -45px;
+  }
+}
+.modal-content{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding: 10px;
+  input[name='name']{
+    margin-top: 15px;
+    background: url("../../img/user.png") no-repeat center left 5px;
+    padding: 20px;
+    padding-left: 25px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    &:hover,
+    &:focus{
+      opacity: 1;
+    }
+  }
+  input[name='phone']{
+    margin-top: 15px;
+    background: url("../../img/phone.png") no-repeat center left 5px;
+    padding: 20px;
+    padding-left: 25px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    &:hover,
+    &:focus{
+      opacity: 1;
+    }
+  }
+  button[type='submit']{
+    margin-top: 15px;
+    background-color: #ff9933;
+    color: #fff;
+    border: 2px solid #ff9933;
+    padding: 7px 25px;
+    -moz-transition: color 0.15s 0.015s ease;
+    -o-transition: color 0.15s 0.015s ease;
+    -webkit-transition: color 0.15s 0.015s ease;
+    &:hover{
+      background-color: transparent;
+      color: #ff9933;
+      border: 2px solid #ff9933;
+    }
+  }
+  textarea{
+    margin-top: 15px;
+    padding: 20px;
+    padding-left: 25px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    &:hover,
+    &:focus{
+      opacity: 1;
+    }
+  }
+  .price{
+    font-family: "OpenSansBold";
+    color: #ff9933;
+    font-size: 22px;
+  }
+}
